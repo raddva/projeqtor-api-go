@@ -9,7 +9,7 @@ Sebuah aplikasi full-stack yang menampilkan RESTful API yang dibangun dengan **G
 
 ## ✨ Fitur Utama
 
-- **Backend Cepat & Efisien**: Dibangun dengan Go menggunakan framework [Gin Gonic](https://github.com/gin-gonic/gin) untuk performa tinggi.
+- **Backend Cepat & Efisien**: Dibangun dengan Go menggunakan framework [Fiber](https://gofiber.io/) untuk performa tinggi.
 - **Frontend Modern**: Antarmuka yang responsif dan dinamis menggunakan [React.js](https://reactjs.org/).
 - **RESTful API**: Desain API yang bersih dan terstruktur untuk operasi CRUD (Create, Read, Update, Delete) pada data.
 - **Database**: Menggunakan [PostgreSQL](https://www.postgresql.org/) dengan [GORM](https://gorm.io/) sebagai ORM untuk interaksi database yang mudah.
