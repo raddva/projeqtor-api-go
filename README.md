@@ -35,7 +35,7 @@ Sebuah aplikasi full-stack yang menampilkan RESTful API yang dibangun dengan **G
 
 ```bash
 
-/project-management-api/
+/projeqtor-api-go/
 ├── config/ # Konfigurasi aplikasi (database, env)
 ├── controllers/ # Menangani request & response HTTP
 ├── database/ # Pengaturan koneksi, migrasi & seeding data
@@ -77,8 +77,8 @@ Ikuti langkah-langkah ini untuk menjalankan proyek secara lokal.
 ### 1. Clone Repository
 
 ```bash
-git clone [https://github.com/raddva/project-management-api.git](https://github.com/raddva/project-management-api.git)
-cd project-management-api
+git clone [https://github.com/raddva/projeqtor-api-go.git](https://github.com/raddva/projeqtor-api-go.git)
+cd projeqtor-api-go
 ```
 
 ### 2. Konfigurasi Backend (Server)
@@ -105,4 +105,4 @@ Menjalankan Server Backend
 go run main.go
 ```
 
-Server API akan berjalan di http://localhost:8080.
+Server API akan berjalan di http://localhost:3030.

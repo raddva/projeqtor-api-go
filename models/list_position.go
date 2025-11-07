@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/raddva/project-management-api/models/types"
+	"github.com/raddva/projeqtor-api-go/models/types"
 
 	"github.com/google/uuid"
 )
