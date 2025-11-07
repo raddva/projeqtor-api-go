@@ -42,3 +42,17 @@ func (s *userService) Register(user *models.User) error {
 
 	return s.repo.Create(user)
 }
+
+func (s *userService) Login(email, password string) (*models.User, error) {
+	user, err := s.repo.FindByEmail(email)
+	if err != nil {
+		return nil, errors.New("invalid credentials")
+	}
+
+	isValid := utils.CheckPasswordHash(password, user.Password)
+	if !isValid {
+		return nil, errors.New("invalid credentials")
+	}
+
+	return user, nil
+}
